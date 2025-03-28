@@ -13,6 +13,18 @@ This is main CSS file that contains custom style rules used in this template
 /*--------------------------------------------------------------
 /** VARIABLES
 --------------------------------------------------------------*/
+
+.logo{
+  height: 7vw;
+ }
+
+ @media  (max-width: 800px){
+    .logo{
+      height: 20vw;
+    }
+ }
+
+
 body {
   --heading-font        : "Inter", sans-serif;
   --bs-link-color: #333;
